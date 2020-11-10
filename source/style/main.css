@@ -12,20 +12,19 @@
 
 .menu {
     position: absolute;
-    height: 965px;
-    width: 73px;
-    background-color: rgb(53, 35, 155);
+    width: 80px;
+    background: linear-gradient(to bottom, #f8a84c, #a72968 );
 }
 
 .header {
-    height: 71px;
+    height: 5em;
     width: 1280px;
     flex-grow: 1;
     background-color: burlywood;
 }
 
 .statistics {
-    height: 98px;
+    height: 110px;
     width: 1280px;
     flex-grow: 2;
     background-color: chocolate;
@@ -33,17 +32,44 @@
 
 .main {
     height: 796px;
-    width: 1000px;
+    width: 700px;
     flex-grow: 3;
     background-color: darkblue;
 }
 
 .sidebar {
     height: 796px;
-    width: 280px;
+    width: 275px;
     flex-grow: 4;
     background-color: crimson;
 }
+
+.menu__list {
+    margin: 2em 0px;
+    font-family: 'lato';
+    font-size: 0.9em;
+    list-style-type: none;
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+
+.menu__logo {
+    font-family: 'courgette';
+    font-size: 2.0em;
+    list-style-type: none;
+    text-align: center;
+    text-decoration: none;
+    background-color: rgb(255, 255, 255);
+}
+
+.menu__power-button {
+    margin: 534px 0 10px;
+    list-style-type: none;
+    text-align: center;
+}
+
+
+
 
 
 
