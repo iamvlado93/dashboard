@@ -1,0 +1,5 @@
+@media (max-width: 1364px) {
+    .header .wrap {
+        display: none;
+    }
+}    
