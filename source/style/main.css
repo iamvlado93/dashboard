@@ -7,21 +7,23 @@
 .wrap {
     max-width: 1380px;
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: row;
 }
 
 .menu {
-    position: absolute;
-    width: 80px;
+    margin: 0px auto;
+    height: 1000px;
+    width: 78px;
     background: linear-gradient(to bottom, #de6262,#dd5e89);
 }
 
 .header {
-    width: 1380px;
+    width: 1298px;
+    height: 71px;
     display: flex;
     justify-content: space-between;
-    margin-left: 70px;
     flex-grow: 1;
+    background-color: rgb(137, 143, 145);
 }
 
 .statistics {
@@ -32,6 +34,7 @@
 }
 
 .main {
+    width: 650px;
     height: 796px;
     flex-grow: 3;
     background-color: darkblue;
@@ -44,7 +47,7 @@
 }
 
 .menu__list {
-    margin: 3em 0px;
+    padding-top: 29px;
     font-family: 'lato';
     font-size: 0.7em;
     list-style-type: none;
@@ -53,58 +56,70 @@
 }
 
 .menu__logo {
-    margin-top: 15px;
+    width: 70px;
+    height: 71px;
     font-family: 'courgette';
-    font-size: 1.9em;
+    font-size: 1.8em;
     list-style-type: none;
     text-align: center;
     text-decoration: none;
     background: linear-gradient(to bottom, #de6262,#dd5e89);
 }
 
+.menu__img {
+    width: 20px;
+}
+
 .menu__power-button {
-    margin: 534px 0 10px;
+    margin: 585px 0;
     list-style-type: none;
     text-align: center;
 }
 
+.header__first-button {
+    padding-top: 23px;
+    text-align: center;
+    width: 70px;
+}
+
 .header__img {
-    margin-top: 19px;
-    margin-left: 22px;
     width: 25px;
     height: 20px;
 }
 
+.header__img-kendall {
+    background: cover;  
+}
+
 .header__list {
-    height: 30px;
-    width: 70px;
-    margin: 10px 5px;
-    color: lawngreen;
+    padding-top: 23px;
+    text-align: center;
+    margin: 0px 1px;
+    height: 71px;
+    width: 59px;
 }
 
 .header__input {
-    margin-top: 15px;
-    width: 450px;
+    width: 673px;
     text-align: center;
 }
 
-#ip1 {
+#fname {
+    width: 299px;
+    height: 34px;  
     border-radius: 18px;
-    margin-top: 13px;
-    background: grey;
-    width: 200px;
-    height: 28px;    
+    border: none;
+    background: rgb(243, 238, 238);
+}
+
+.header__picture {
+    width: 70px;
+    height: 70px;
 }
 
 .header__list__name {
-    padding-top: 20px;
-    width: 200px;
+    width: 173px;
     text-align: center;
-}
-
-.header__ellipse {
-    margin-top: 20px;
-
 }
 
 
