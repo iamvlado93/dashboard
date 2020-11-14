@@ -12,15 +12,15 @@
 <body>
     <div class="wrap">
         <div class="menu">
-            <div class="menu__logo"><a class="menu__logo" href="">W</a></div>
-                <ul class="menu__buttons">
-                    <li class="menu__list"><a class="home__button" href=""><img class="menu__img" src="./source/img/nav/home.png" alt="home"></a><br>Home</li>
-                    <li class="menu__list"><a class="statistics__button" href=""><img class="menu__img" src="./source/img/nav/chart.png" alt="chart"></a><br>Statistics</li>
-                    <li class="menu__list"><a class="users__button" href=""><img class="menu__img" src="./source/img/nav/user.png" alt="user"></a><br>Users</li>
-                    <li class="menu__list"><a class="settings__button" href=""><img class="menu__img" src="./source/img/nav/settings.png" alt="settings"></a><br>Settings</li>
-                    <li class="menu__list"><a class="quires__button" href=""><img class="menu__img" src="./source/img/nav/information.png" alt="information"></a><br>Quires</li>
-                    <li class="menu__power-button"><a class="power__button" href=""><img class="menu__img>" src="./source/img/nav/power-button.png" alt="power-button"></a></li>
-                </ul>
+        <div class="menu__logo"><a class="menu__logo" href=""><img class="menu__logo" src="./source/img/nav/logo.png"></a></div>
+            <ul class="menu__buttons">
+                <li class="menu__list"><a class="home__button" href=""><img class="menu__img" src="./source/img/nav/home.png" alt="home"></a><br>Home</li>
+                <li class="menu__list"><a class="statistics__button" href=""><img class="menu__img" src="./source/img/nav/chart.png" alt="chart"></a><br>Statistics</li>
+                <li class="menu__list"><a class="users__button" href=""><img class="menu__img" src="./source/img/nav/user.png" alt="user"></a><br>Users</li>
+                <li class="menu__list"><a class="settings__button" href=""><img class="menu__img" src="./source/img/nav/settings.png" alt="settings"></a><br>Settings</li>
+                <li class="menu__list"><a class="quires__button" href=""><img class="menu__img" src="./source/img/nav/information.png" alt="information"></a><br>Quires</li>
+                <li class="menu__power-button"><a class="power__button" href=""><img class="menu__img>" src="./source/img/nav/power-button.png" alt="power-button"></a></li>
+            </ul>
         </div>
 
         <div class="base__layout">
@@ -31,7 +31,8 @@
                 <div class="header__input">
                     <form>
                         <label form="header-form"></label><br>
-                        <input type="text" id="header-form" name="header-form" value="Search anything here..."></form>
+                        <input type="text" id="header-form" name="header-form" value="  Search anything here...  ">
+                    </form>
                 </div>
                 <div class="header__list"><a class ="header__buttons" href=""><img class="header__img" src="./source/img/header/upload.png" alt="upload"></a></div>
                 <div class="header__list"><a class ="header__buttons" href=""><img class="header__img" src="./source/img/header/envelope.png" alt="envelope"></a></div>
@@ -89,16 +90,47 @@
             <div class="body__layout">
                 <main class="main">
                     <div class="upper__container">
-                        <div class="upper__container-left"></div>
-                        <div class="upper__container-right"></div>
+                        <div class="upper__container-left">
+                            <div class="upper__container-left__header">
+                                <h4 class="upper__container-left__header-title">monthly revenue progress</h4>
+                                <div class="upper__container-left__header-buttons">
+                                    <div class="upper__container-left__block"><a class ="upper__container-buttons" href="">Month</a></div>
+                                    <div class="upper__container-left__block"><a class ="upper__container-buttons" href="">Day</a></div>
+                                    <div class="upper__container-left__block"><a class ="upper__container-buttons" href="">Year</a></div>
+                                    <div class="upper__container-left__menu"><a class ="upper__container-buttons" href=""><img class="sidebar__header-img" src="./source/img/header/ellipse.png" alt="like"></a></div>
+                                </div>
+                            </div>
+                            <div class="upper__container-left__body">
+                                <img class="upper__container-left-image" src="./source/img/main/chart.png" alt="chart">
+                            </div>
+                        </div>
+                        
+                        <div class="upper__container-right">
+                            <h4 class="lower-container__title">revenue per hour</h4>
+                            <img class="lower-container__img" src="./source/img/main/round_chart.png" alt="round_chart">
+                            <p class="statistics__footer"><span class="statistics__footer__first-triangle">V</span>1020<span class="statistics__footer__second-triangle">V</span>1020</p>
+                        </div>
                     </div>
                     <div class="lower__container">
                         <div class="lower__container-left"></div>
                         <div class="lower__container-right">
                             <div class="horizontal__upper-container"></div>
                             <div class="horizontal__lower-container">
-                                <div class="bottom-left__container"></div>
-                                <div class="bottom-right__container"></div>
+                                <div class="horizontal__lower-container__left">
+                                    <h4 class="lower-container__title">progress</h4>
+                                    <img class="lower-container__img" src="./source/img/main/bars.png" alt="bars">
+                                    <p class="__right-text-left">150.000</p>
+                                        <p class="statistics__footer"><span class="statistics__footer__first-triangle">V</span>1020<span class="statistics__footer__second-triangle">V</span>1020</p>  
+                                </div>
+                                
+                                <div class="horizontal__lower-container__right">
+                                    <h4 class="lower-container__title">shipments</h4>
+                                    <img class="lower-container__img" src="./source/img/main/map.png" alt="map">
+                                    <div class="lower-container__text">
+                                        <p class="__right-text-left">120.000</p>
+                                        <p class="statistics__footer"><span class="statistics__footer__first-triangle">V</span>1020<span class="statistics__footer__second-triangle">V</span>1020</p>  
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -115,55 +147,55 @@
                         <li class="sidebar__body-row">
                             <img class="sidebar__img" src="./source/img/aside/lawrence.png" alt="lawrence">
                             <div class="sidebar__text">
-                                <h3 class="row__title">jennifer lawrence</h3>
+                                <h4 class="row__title">jennifer lawrence</h4>
                                 <p class="row__text">chief authority</p>
                             </div>
-                            <img class="row__chat" src="./source/img/aside/chat.png" alt="chat">
+                            <a class ="sidebar__row__chat" href=""><img class="row__chat" src="./source/img/aside/chat.png" alt="chat"></a>
                         </li>
 
                         <li class="sidebar__body-row">
                             <img class="sidebar__img" src="./source/img/aside/pitt.png" alt="pitt">
                             <div class="sidebar__text">
-                                <h3 class="row__title">brad pitt</h3>
+                                <h4 class="row__title">brad pitt</h4>
                                 <p class="row__text">chief authority</p>
                             </div>
-                            <img class="row__chat" src="./source/img/aside/chat.png" alt="chat">
+                            <a class ="sidebar__row__chat" href=""><img class="row__chat" src="./source/img/aside/chat.png" alt="chat"></a>
                         </li>
 
                         <li class="sidebar__body-row">
                             <img class="sidebar__img" src="./source/img/aside/dicaprio.png" alt="dicaprio">
                             <div class="sidebar__text">
-                                <h3 class="row__title">leonardo dicaprio</h3>
+                                <h4 class="row__title">leonardo dicaprio</h4>
                                 <p class="row__text">chief authority</p>
                             </div>
-                            <img class="row__chat" src="./source/img/aside/chat.png" alt="chat">
+                            <a class ="sidebar__row__chat" href=""><img class="row__chat" src="./source/img/aside/chat.png" alt="chat"></a>
                         </li>
 
                         <li class="sidebar__body-row">
                             <img class="sidebar__img" src="./source/img/aside/eisenberg.png" alt="eisenberg">
                             <div class="sidebar__text">
-                                <h3 class="row__title">jesse eisenberg</h3>
+                                <h4 class="row__title">jesse eisenberg</h4>
                                 <p class="row__text">chief authority</p>
                             </div>
-                            <img class="row__chat" src="./source/img/aside/chat.png" alt="chat">
+                            <a class ="sidebar__row__chat" href=""><img class="row__chat" src="./source/img/aside/chat.png" alt="chat"></a>
                         </li>
 
                         <li class="sidebar__body-row">
                             <img class="sidebar__img" src="./source/img/aside/stewart.png" alt="stewart">
                             <div class="sidebar__text">
-                                <h3 class="row__title">kristen stewart</h3>
+                                <h4 class="row__title">kristen stewart</h4>
                                 <p class="row__text">chief authority</p>
                             </div>
-                            <img class="row__chat" src="./source/img/aside/chat.png" alt="chat">
+                            <a class ="sidebar__row__chat" href=""><img class="row__chat" src="./source/img/aside/chat.png" alt="chat"></a>
                         </li>
 
                         <li class="sidebar__body-row">
                             <img class="sidebar__img" src="./source/img/aside/affleck.png" alt="affleck">
                             <div class="sidebar__text">
-                                <h3 class="row__title">ben affleck</h3>
+                                <h4 class="row__title">ben affleck</h4>
                                 <p class="row__text">chief authority</p>
                             </div>
-                            <img class="row__chat" src="./source/img/aside/chat.png" alt="chat">
+                            <a class ="sidebar__row__chat" href=""><img class="row__chat" src="./source/img/aside/chat.png" alt="chat"></a>
                         </li>
 
                         <li class="sidebar__input-form">
@@ -176,6 +208,7 @@
                         </li>
 
                         <li class="sidebar__social-icons">
+                            <h4 class="sidebar__title">Featured Companies</h4>
                             <div class="sidebar__upper-icons">
                                 <a class ="sidebar__upper-container" id="rdio" href=""><img class="sidebar__icons" src="./source/img/aside/rdio.png" alt="rdio"></a>
                                 <a class ="sidebar__upper-container" id="css3" href=""><img class="sidebar__icons" src="./source/img/aside/css3.png" alt="css3"></a>
