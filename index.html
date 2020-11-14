@@ -29,9 +29,9 @@
                 <div class="header__list"><a class ="header__buttons" href=""><img class="header__img" src="./source/img/header/folder.png" alt="folder"></a></div>
                 <div class="header__list"><a class ="header__buttons" href=""><img class="header__img" src="./source/img/header/settings.png" alt="settings"></a></div> 
                 <div class="header__input">
-                    <form action="/action_page.php">
-                        <label for="fname"></label><br>
-                        <input type="text" id="fname" name="fname" value="Search anything here..."></form>
+                    <form>
+                        <label form="header-form"></label><br>
+                        <input type="text" id="header-form" name="header-form" value="Search anything here..."></form>
                 </div>
                 <div class="header__list"><a class ="header__buttons" href=""><img class="header__img" src="./source/img/header/upload.png" alt="upload"></a></div>
                 <div class="header__list"><a class ="header__buttons" href=""><img class="header__img" src="./source/img/header/envelope.png" alt="envelope"></a></div>
@@ -147,6 +147,7 @@
                             </div>
                             <img class="row__chat" src="./source/img/aside/chat.png" alt="chat">
                         </li>
+
                         <li class="sidebar__body-row">
                             <img class="sidebar__img" src="./source/img/aside/stewart.png" alt="stewart">
                             <div class="sidebar__text">
@@ -155,6 +156,7 @@
                             </div>
                             <img class="row__chat" src="./source/img/aside/chat.png" alt="chat">
                         </li>
+
                         <li class="sidebar__body-row">
                             <img class="sidebar__img" src="./source/img/aside/affleck.png" alt="affleck">
                             <div class="sidebar__text">
@@ -163,19 +165,26 @@
                             </div>
                             <img class="row__chat" src="./source/img/aside/chat.png" alt="chat">
                         </li>
-                        <li class="sidebar__input-form"></li>
-                        
+
+                        <li class="sidebar__input-form">
+                            <form>
+                                <label form="sidebar-form"></label>
+                                <input type="text" id="sidebar-form" name="sidebar-form" value="Search people, chats and reviews">
+                            </form>
+                            <a class ="sidebar__form-icon" href=""><img class="sidebar__icons" src="./source/img/aside/zoom.png" alt="zoom"></a>
+                            <a class ="sidebar__form-icon" href=""><img class="sidebar__icons" src="./source/img/aside/edit.png" alt="edit"></a>
+                        </li>
+
                         <li class="sidebar__social-icons">
                             <div class="sidebar__upper-icons">
-                                <a class ="sidebar__upper-container" href=""><img class="sidebar__icons" src="./source/img/aside/rdio.png" alt="rdio"></a>
-                                <a class ="sidebar__upper-container" href=""><img class="sidebar__icons" src="./source/img/aside/css3.png" alt="css3"></a>
-                                <a class ="sidebar__upper-container" href=""><img class="sidebar__icons" src="./source/img/aside/deviant.png" alt="deviant"></a>
-                            
+                                <a class ="sidebar__upper-container" id="rdio" href=""><img class="sidebar__icons" src="./source/img/aside/rdio.png" alt="rdio"></a>
+                                <a class ="sidebar__upper-container" id="css3" href=""><img class="sidebar__icons" src="./source/img/aside/css3.png" alt="css3"></a>
+                                <a class ="sidebar__upper-container" id="deviant" href=""><img class="sidebar__icons" src="./source/img/aside/deviant.png" alt="deviant"></a>
                             </div>
                             <div class="sidebar__lower-icons">
-                                <a class ="sidebar__lower-container" href=""><img class="sidebar__icons" src="./source/img/aside/xing.png" alt="xing"></a>
-                                <a class ="sidebar__lower-container" href=""><img class="sidebar__icons" src="./source/img/aside/vimeo.png" alt="vimeo"></a>
-                                <a class ="sidebar__lower-container" href=""><img class="sidebar__icons" src="./source/img/aside/vk.png" alt="vk"></a>
+                                <a class ="sidebar__lower-container" id="xing" href=""><img class="sidebar__icons" src="./source/img/aside/xing.png" alt="xing"></a>
+                                <a class ="sidebar__lower-container" id="vimeo" href=""><img class="sidebar__icons" src="./source/img/aside/vimeo.png" alt="vimeo"></a>
+                                <a class ="sidebar__lower-container" id="vk" href=""><img class="sidebar__icons" src="./source/img/aside/vk.png" alt="vk"></a>
                             </div>
                         </li>  
                     </ul>

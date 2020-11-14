@@ -93,7 +93,7 @@
     text-align: center;
 }
 
-#fname {
+#header-form {
     width: 299px;
     height: 34px;  
     border-radius: 18px;
@@ -244,14 +244,21 @@
     height: 831px;
     width: 298px;
     flex-grow: 4;
-    background-color: crimson;
 }
 
 .sidebar__header {
     display: flex;
     justify-content: space-between;
     width: 298px;
-    background: darkblue;
+}
+
+.sidebar__body {
+    background-color: rgb(233, 225, 225);
+}
+
+.row__chat {
+    width: 25px;
+    height: 25px;
 }
 
 .sidebar__header-items {
@@ -260,17 +267,21 @@
     justify-content: center;
     width: 98.5px;
     height: 48px;
-    background-color: darkgreen;
+    background: linear-gradient(to bottom, #de6262,#dd5e89);
+}
+
+.sidebar__header-items:hover {
+    background: linear-gradient(to bottom, #7e3737,#702f44);
 }
 
 .sidebar__body-row {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    border-bottom: 1px solid rgb(165, 156, 156);
     margin: 10px;
     width: 278px;
-    height: 76px;
-    background-color: darkmagenta;
+    height: 76px; 
 }
 
 .sidebar__text {
@@ -286,9 +297,23 @@
 }
 
 .sidebar__input-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 298px;
     height: 58px;
-    background-color: rgb(139, 79, 0);
+    border-bottom: 1px solid black;
+    background-color: white;
+
+}
+
+#sidebar-form {
+    width: 210px;
+    margin-right: 10px;
+}
+
+.sidebar__form-icon {
+    margin: 0 5px;
 }
 
 .sidebar__social-icons {
@@ -298,7 +323,7 @@
     align-items: center;
     width: 298px;
     height: 200px;
-    background-color: rgb(51, 173, 39);
+    background-color: white;
 }
 
 .sidebar__upper-icons {
@@ -319,7 +344,7 @@
     width: 60px;
     height: 60px;
     border-radius: 20px;
-    background-color: darkred;
+    
 }
 
 .sidebar__lower-container {
@@ -330,9 +355,31 @@
     width: 60px;
     height: 60px;
     border-radius: 20px;
-    background-color: rgb(0, 9, 139);
 }
 
+#rdio {
+    background: linear-gradient(to bottom, #A88BEB,#F8CEEC);
+}
+
+#css3 {
+    background: linear-gradient(to bottom, #77EEDB,#9EABE4);
+}
+
+#deviant {
+    background: linear-gradient(to bottom, #FF8489,#D5ADC8);
+}
+
+#xing {
+    background: linear-gradient(to bottom, #647DEE,#7F53AC);
+}
+
+#vimeo {
+    background: linear-gradient(to bottom, #009FFD,#36096D);
+}
+
+#vk {
+    background: linear-gradient(to bottom, #F53803,#F5D020);
+}
 
 
 
