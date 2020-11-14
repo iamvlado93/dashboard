@@ -109,11 +109,10 @@
 
 .header__list__name {
     display: flex;
-    justify-content: left;
     align-items: center;
+    justify-content: center;
     flex-direction: column;
-    width: 173px;
-    text-align: center;
+    width: 173px;   
 }
 
 .header__menu {
@@ -257,9 +256,22 @@
 }
 
 .horizontal__upper-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     width: 503px;
     height: 250px;
     background-color: rgb(255, 255, 255);
+}
+
+.horizontal__upper-container__inner {
+    display: flex;
+    justify-content: center;
+}
+
+.horizontal__upper-container__clock {
+    width: 100px;
+    height: 30px;
 }
 
 .horizontal__lower-container {
@@ -312,12 +324,12 @@
 }
 
 .sidebar__body {
-    background-color: rgb(245, 240, 240);
+    background-color: rgb(255, 255, 255);
 }
 
 .row__chat {
-    width: 25px;
-    height: 25px;
+    width: 30px;
+    height: 30px;
 }
 
 .sidebar__header-items {
@@ -369,11 +381,8 @@
 #sidebar-form {
     width: 210px;
     margin-right: 10px;
-    border-top-style: hidden; 
-    border-left-style: hidden;
-    border-right-style: hidden;
+    border-style: hidden hidden hidden;
     background-color: rgb(245, 240, 240);
-    
 }
 
 .sidebar__form-icon {
