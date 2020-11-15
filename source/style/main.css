@@ -9,7 +9,6 @@
     max-width: 1298px;
     margin: 0 auto;
     display: flex;
-    flex-wrap: wrap;
 }
 
 .menu {
@@ -27,6 +26,13 @@
     list-style-type: none;
     text-align: center;
     color: rgb(255, 255, 255);
+    transition: 1s;
+}
+
+.menu__list:hover {
+    color: (#883094);
+    transform: scale(1.3);
+    transition: 0.5s;
 }
 
 .menu__logo {
@@ -36,8 +42,18 @@
     font-size: 1.8em;
     list-style-type: none;
     text-align: center;
-    text-decoration: none;
     background: white
+}
+
+.menu__logo:hover {
+    color: (#883094);
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+
+.nav__button {
+    text-decoration: none;
+    color: rgb(240, 236, 236);
 }
 
 .menu__img {
@@ -45,9 +61,15 @@
 }
 
 .menu__power-button {
-    margin: 580px 0;
+    margin: 170px 0;
     list-style-type: none;
     text-align: center;
+}
+
+.menu__power-button:hover {
+    color: (#883094);
+    transform: scale(1.3);
+    transition: 0.5s;
 }
 
 .base__layout {
@@ -75,6 +97,11 @@
     width: 70px;
 }
 
+.header__first-button:hover {
+    transform: scale(1.3);
+    transition: 0.5s;
+}
+
 .header__img {
     width: 35px;
     height: 25px;
@@ -90,6 +117,11 @@
     margin: 0px 1px;
     height: 71px;
     width: 59px;
+}
+
+.header__list:hover {
+    transform: scale(1.3);
+    transition: 0.5s;
 }
 
 .header__input {
@@ -118,6 +150,22 @@
     width: 173px;   
 }
 
+.header__kendall-name {
+    font-family: 'lato';
+    font-size: 13px;
+    text-transform: capitalize;
+    background: -webkit-linear-gradient(#de6262,#dd5e89);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.header__kendall-position {
+    font-family: 'lato';
+    font-size: 10px;
+    text-transform: capitalize;
+    color: rgb(165, 156, 156);
+}
+
 .header__menu {
     display: flex;
     justify-content: right;
@@ -133,7 +181,7 @@
     width: 1298px;
     height: 98px;
     flex-grow: 2;
-    background-color: white;
+    background-color: rgb(255, 255, 255);
 }
 
 .statistics__figures {
@@ -142,19 +190,29 @@
     flex-direction: column;
     font-family: 'lato';
     align-items: center;
-    font-size: 12px;
     width: 140px;
     height: 98px;
     text-transform: capitalize;
 }
 
+.statistics__header {
+    font-family: 'lato';
+    font-size: 12px;
+    color: rgb(165, 156, 156);
+}
+
 .statistics__body {
+    font-family: 'lato';
     font-size: 20px;
+    background: -webkit-linear-gradient(#de6262,#dd5e89);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 .statistics__footer {
     font-family: 'lato';
     font-size: 12px;
+    color: rgb(165, 156, 156);
 }
 
 .body__layout {
@@ -180,6 +238,13 @@
     height: 266px;
 }
 
+.upper__container__title {
+    font-family: 'lato';
+    font-size: 14px;
+    text-transform: capitalize;
+    color: rgb(165, 156, 156);
+}
+
 .upper__container-left {
     margin: 10px;
     width: 704px;
@@ -193,6 +258,11 @@
 
 .upper__container-left__header-title {
     margin: 10px 0px 0px 15px;
+    text-transform: capitalize;
+    font-family: 'lato';
+    font-size: 14px;
+    color: rgb(165, 156, 156);
+
 }
 
 .upper__container-left__header-buttons {
@@ -212,7 +282,7 @@
     display: flex;
     justify-content: center;
     width: 60px;
-    height: 22px;
+    height: 28px;
     border-radius: 10px;
 }
 
@@ -222,7 +292,7 @@
 
 
 .upper__container-left__menu {
-    margin-top: 12px;
+    margin-top: 15px;
     background-color: rgb(255, 255, 255);
 }
 
@@ -264,6 +334,9 @@
 
 .lower__container-left__header {
     margin: 10px 0px 0px 10px;
+    font-family: 'lato';
+    font-size: 14px;
+    color: rgb(165, 156, 156);
 }
 
 .lower__container-left__right-part {
@@ -353,20 +426,22 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    overflow-x: scroll;
+    overflow-y: scroll;
     width: 503px;
     height: 250px;
     background-color: rgb(255, 255, 255);
 }
 
 .horizontal__upper-container__heading {
-    margin: 5px 0 0 15px;
+    margin: 10px 0px 0px 15px;
+    font-family: 'lato';
+    font-size: 14px;
+    color: rgb(165, 156, 156);
 }
 
 .horizontal__upper-container__inner {
-    margin-left: 15px;
+    margin-bottom: 10px;
     display: flex;
-    justify-content: center;
     justify-content: space-evenly;
     border-bottom: 1px solid rgb(165, 156, 156);
 }
@@ -379,6 +454,7 @@
 .horizontal__upper-container__title {
     font-family: 'lato';
     font-size: 12px;
+    color: rgb(165, 156, 156);
 }
 
 .horizontal__upper-container__heading {
@@ -422,8 +498,30 @@
     background-color: rgb(255, 255, 255);
 }
 
+.lower-container__title {
+    font-family: 'lato';
+    font-size: 14px;
+    color: rgb(165, 156, 156);
+}
+
 .lower-container__text {
     display: flex;
+}
+
+.__right-text-shipment {
+    font-family: 'lato';
+    font-size: 20px;
+    background: -webkit-linear-gradient(#de6262,#dd5e89);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.__right-text-progress {
+    font-family: 'lato';
+    font-size: 20px;
+    background: -webkit-linear-gradient(#8f4499,#f15489);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 .sidebar {
@@ -510,12 +608,16 @@
 #sidebar-form {
     width: 210px;
     margin-right: 10px;
+    font-family: 'lato';
+    font-size: 12px;
+    color: rgb(165, 156, 156);
     border-style: hidden hidden hidden;
     background-color: rgb(245, 240, 240);
 }
 
 .sidebar__form-icon {
     margin: 0 5px;
+    color: rgb(165, 156, 156);
 }
 
 .footer__social-icons {
@@ -526,6 +628,14 @@
     width: 298px;
     height: 234px;
     background-color: rgb(245, 240, 240);
+}
+
+.footer__title {
+    margin-bottom: 10px;
+    font-family: 'lato';
+    font-size: 14px;
+    text-transform: capitalize;
+    color: rgb(165, 156, 156);
 }
 
 .footer__upper-icons {
@@ -547,6 +657,10 @@
     height: 60px;
     border-radius: 20px;
 }
+.footer__upper-container:hover {
+    transform: scale(1.1);
+    transition: 0.5s;
+}
 
 .footer__lower-container {
     display: flex;
@@ -556,6 +670,10 @@
     width: 60px;
     height: 60px;
     border-radius: 20px;
+}
+.footer__lower-container:hover {
+    transform: scale(1.1);
+    transition: 0.5s;
 }
 
 #rdio {
