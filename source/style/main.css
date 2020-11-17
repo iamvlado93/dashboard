@@ -1128,23 +1128,15 @@
         flex-wrap: wrap;
     }
 
-    .main, .upper__container, .upper__container-left, .upper__container-right, .footer__lower-container, .lower__container-right, .lower__container-left, .lower__container-right, .lower__container {
+    .main, .upper__container-left-image, .upper__container, .upper__container-left, .upper__container-right, .footer__lower-container, .lower__container-right, .lower__container-left, .lower__container-right, .lower__container, .lower__container-left__left-part, .lower__container-left__right-part, .horizontal__upper-container, .horizontal__lower-container__left, .horizontal__lower-container__right, .horizontal__lower-container, .horizontal__upper-container__inner {
         flex-wrap: wrap;
         width: 100%;
     }
 
-    .sidebar, .sidebar__header, .sidebar__header-items, .sidebar__body, .sidebar__body-row {
+    .upper__container-left__header-buttons {
+        margin: 0 auto;
         width: 100%;
     }
-
-    .sidebar__body-row {
-        padding: 0px 15px 0px 0px;
-    }
-
-    .sidebar {
-        height: 100%;
-    }
-
     .header__list, .header__kendall-title, .header__kendall-text, .header__first-button, .header__input, .header__kendall-button  {
         display: none;
     }
@@ -1166,6 +1158,18 @@
 
     .sidebar__input-form {
         width: 100%;
+    }
+
+    .sidebar, .sidebar__header, .sidebar__header-items, .sidebar__body, .sidebar__body-row {
+        width: 100%;
+    }
+
+    .sidebar__body-row {
+        padding: 0px 15px 0px 0px;
+    }
+
+    .sidebar {
+        height: 100%;
     }
 }
 

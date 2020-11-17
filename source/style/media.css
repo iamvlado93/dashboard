@@ -25,7 +25,7 @@
         flex-wrap: wrap;
     }
 
-    .main, .upper__container, .upper__container-left, .upper__container-right, .footer__lower-container, .lower__container-right, .lower__container-left, .lower__container-right, .lower__container {
+    .main, .upper__container, .upper__container-left, .upper__container-right, .footer__lower-container, .lower__container-right, .lower__container-left, .lower__container-right, .lower__container, .horizontal__lower-container, .horizontal__lower-container__left, .horizontal__lower-container__right {
         flex-wrap: wrap;
         width: 100%;
     }
