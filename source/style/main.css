@@ -1101,13 +1101,13 @@
     outline: none;
   }
 
-@media screen and (max-width: 768px){
+@media screen and (max-width: 375px){
     .navigation {
         display: none;
     }
 }
 
-@media screen and (max-width: 768px){
+@media screen and (max-width: 375px){
     .wrap {
         height: 100vh;
     }
