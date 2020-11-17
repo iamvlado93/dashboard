@@ -1101,13 +1101,13 @@
     outline: none;
   }
 
-@media screen and (max-width: 375px){
+@media screen and (max-width: 768px){
     .navigation {
         display: none;
     }
 }
 
-@media screen and (max-width: 375px){
+@media screen and (max-width: 768px){
     
     .header {
         width: 100%;
@@ -1117,6 +1117,86 @@
     .base__layout {
         width: 100%;
         margin-left: 0px;
+        flex-grow: 1;
+    }
+
+    .body__layout {
+        width: 100%;
+        flex-wrap: wrap;
+    }
+
+    .main, .upper__container-left-image, .upper__container, .upper__container-left, .upper__container-right, .footer__lower-container, .lower__container-right, .horizontal__upper-container, .horizontal__lower-container__left, .horizontal__lower-container__right, .horizontal__lower-container, .horizontal__upper-container__blocks, .container, .horizontal__upper-container__inner {
+        flex-wrap: wrap;
+        width: 100%;
+    }
+
+    .lower__container-left__right-part, .lower__container-left__header, .__inner-block-text, .__right-part__inner-block, .__right-part__inner-blocks {
+        width: 100%;
+        flex-wrap: wrap;
+        
+    }
+
+    .lower__container-left__left-part {
+        display: flex;
+    }
+
+    .upper__container-left__header-buttons {
+        margin: 0 auto;
+        width: 100%;
+    }
+    .header__list, .header__kendall-title, .header__kendall-text, .header__first-button, .header__input, .header__kendall-button  {
+        display: none;
+    }
+
+    .header__img-kendall { 
+        border: 1px solid black;
+        display: inline;
+    }
+
+    .statistics, .statistics__list {
+        width: 100%;
+        flex-wrap: wrap;
+    }
+
+    .footer__social-icons {
+        width: 100%;
+        display: flex;
+    }
+
+    .sidebar__input-form {
+        width: 100%;
+    }
+
+    .sidebar, .sidebar__header, .sidebar__header-items, .sidebar__body, .sidebar__body-row {
+        width: 100%;
+    }
+
+    .sidebar__body-row {
+        padding: 0px 15px 0px 0px;
+    }
+
+    .sidebar {
+        height: 100%;
+    }
+}
+
+@media screen and (max-width: 340px){
+    .navigation {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 340px){
+    
+    .header {
+        width: 100%;
+        background: linear-gradient(to bottom, #de6262,#dd5e89);
+    }
+
+    .base__layout {
+        width: 100%;
+        margin-left: 0px;
+        flex-grow: 1;
     }
 
     .body__layout {
