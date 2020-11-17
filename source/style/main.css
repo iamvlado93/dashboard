@@ -1128,9 +1128,19 @@
         flex-wrap: wrap;
     }
 
-    .main, .upper__container-left-image, .upper__container, .upper__container-left, .upper__container-right, .footer__lower-container, .lower__container-right, .lower__container-left, .lower__container-right, .lower__container, .lower__container-left__left-part, .lower__container-left__right-part, .horizontal__upper-container, .horizontal__lower-container__left, .horizontal__lower-container__right, .horizontal__lower-container, .horizontal__upper-container__inner {
+    .main, .upper__container-left-image, .upper__container, .upper__container-left, .upper__container-right, .footer__lower-container, .lower__container-right, .horizontal__upper-container, .horizontal__lower-container__left, .horizontal__lower-container__right, .horizontal__lower-container, .horizontal__upper-container__blocks, .container, .horizontal__upper-container__inner {
         flex-wrap: wrap;
         width: 100%;
+    }
+
+    .lower__container-left__right-part, .lower__container-left__header, .__inner-block-text, .__right-part__inner-block, .__right-part__inner-blocks {
+        width: 100%;
+        flex-wrap: wrap;
+        
+    }
+
+    .lower__container-left__left-part {
+        display: flex;
     }
 
     .upper__container-left__header-buttons {
