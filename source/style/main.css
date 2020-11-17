@@ -77,7 +77,6 @@
 .base__layout {
     margin-left: 70px;
     width: 100%;
-    height: 100%;
     display: flex;
     flex-direction: column;
     
@@ -91,7 +90,6 @@
 .header {
     width: 100%;
     display: flex;
-    
     justify-content: space-between;
     flex-grow: 1;
     border: 0.5px solid grey;
@@ -1103,29 +1101,52 @@
     outline: none;
   }
 
-
-
-
-@media screen and (max-width: 1000px){
+@media screen and (max-width: 768px){
     .navigation {
         display: none;
     }
 }
 
-@media screen and (max-width: 1000px){
+@media screen and (max-width: 768px){
+    .wrap {
+        height: 100vh;
+    }
+    
+    
     .header {
         width: 100%;
-        float: left;
-        background-color: rgb(137, 74, 167);
+        background: linear-gradient(to bottom, #de6262,#dd5e89);
     }
-    .header__list, .header__kendall-title, .header__kendall-text, .header__first-button, .header__input, .header__kendall-button  {
-        display: none;
-    }
+
     .base__layout {
+        width: 100%;
         margin-left: 0px;
     }
-    .header__form {
-        width: 4%;
+
+    .body__layout {
+        width: 100%;
+        flex-wrap: wrap;
+    }
+
+    .main, .upper__container, .upper__container-left, .upper__container-right, .footer__lower-container, .lower__container-right, .lower__container-left, .lower__container-right, .lower__container {
+        flex-wrap: wrap;
+        width: 100%;
+    }
+
+    .sidebar, .sidebar__header, .sidebar__header-items, .sidebar__body, .sidebar__body-row {
+        width: 100%;
+    }
+
+    .sidebar__body-row {
+        padding: 0px 15px 0px 0px;
+    }
+
+    .sidebar {
+        height: 100%;
+    }
+
+    .header__list, .header__kendall-title, .header__kendall-text, .header__first-button, .header__input, .header__kendall-button  {
+        display: none;
     }
 
     .header__img-kendall { 
@@ -1137,7 +1158,18 @@
         width: 100%;
         flex-wrap: wrap;
     }
+
+    .footer__social-icons {
+        width: 100%;
+        display: flex;
+    }
+
+    .sidebar__input-form {
+        width: 100%;
+    }
 }
+
+
 
 
 
