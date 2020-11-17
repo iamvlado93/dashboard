@@ -1,0 +1,32 @@
+@media screen and (max-width: 1000px){
+    .navigation {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 1000px){
+    .header {
+        width: 100%;
+        float: left;
+        background-color: rgb(137, 74, 167);
+    }
+    .header__list, .header__kendall-title, .header__kendall-text, .header__first-button, .header__input, .header__kendall-button  {
+        display: none;
+    }
+    .base__layout {
+        margin-left: 0px;
+    }
+    .header__form {
+        width: 4%;
+    }
+
+    .header__img-kendall { 
+        border: 1px solid black;
+        display: inline;
+    }
+
+    .statistics, .statistics__list {
+        width: 100%;
+        flex-wrap: wrap;
+    }
+}
