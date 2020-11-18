@@ -3,47 +3,45 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./source/style/main.css" href="./source/style/media.css">
-    
+    <link rel="stylesheet" href="./source/style/main.css">
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;900&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Courgette&display=swap" rel="stylesheet">
     <title>Dashboard</title>
 </head>
 <body>
     <div class="wrap">
         <div class="navigation">
-            <a class="navigation__logo" href="">
-                <img class="navigation__logo" src="./source/img/nav/logo.png">
+            <a class="navigation__logo" href="#">
+                <img class="navigation__logo" src="./source/img/nav/logo.png" alt="logo">
             </a>
             <ul class="navigation__list">
                 <li class="navigation__item">
-                    <a class="navigation__link" href="">
+                    <a class="navigation__link" href="#">
                         <img class="navigation__img" src="./source/img/nav/home.png" alt="home"><br>Home
                     </a>
                 </li>
                 <li class="navigation__item">
-                    <a class="navigation__link" href="">
+                    <a class="navigation__link" href="#">
                         <img class="navigation__img" src="./source/img/nav/chart.png" alt="chart"><br>Statistics
                     </a>
                 </li>
                 <li class="navigation__item">
-                    <a class="navigation__link" href="">
+                    <a class="navigation__link" href="#">
                         <img class="navigation__img" src="./source/img/nav/user.png" alt="user"><br>Users
                     </a>
                 </li>
                 <li class="navigation__item">
-                    <a class="navigation__link" href="">
+                    <a class="navigation__link" href="#">
                         <img class="navigation__img" src="./source/img/nav/settings.png" alt="settings"><br>Settings
                     </a>
                 </li>
                 <li class="navigation__item">
-                    <a class="navigation__link" href="">
+                    <a class="navigation__link" href="#">
                         <img class="navigation__img" src="./source/img/nav/information.png" alt="information"><br>Quires
                     </a>
                 </li>
                 <li class="navigation__power-button">
                     <a class="power__button" href="">
-                        <img class="navigation__img>" src="./source/img/nav/power-button.png" alt="power-button">
+                        <img class="navigation__img>" src="./source/img/nav/power_button.png" alt="power-button">
                     </a>
                 </li>
             </ul><!--navigation__list-->
@@ -51,33 +49,33 @@
 
         <div class="base__layout">
             <header class="header">
-                <a class ="header__first-button" href="">
+                <a class ="header__first-button" href="#">
                     <img class="header__img" src="./source/img/header/menu.png" alt="menu">
                 </a>
-                <a class ="header__list" href="">
+                <a class ="header__list" href="#">
                     <img class="header__img" src="./source/img/header/folder.png" alt="folder">
                 </a>
-                <a class ="header__list" href="">
+                <a class ="header__list" href="#">
                     <img class="header__img" src="./source/img/header/settings.png" alt="settings">
                 </a>
                 
                 <div class="header__input">
                     <form>
-                        <a class="header__loop" href="">
+                        <a class="header__loop" href="#">
                             <img class="loop" src="./source/img/aside/zoom.png" alt="zoom">
                         </a>
-                        <label form="header__form"></label><br>
+                        <label for="header__form"><br></label>
                         <input type="text" id="header__form" name="header__form" value="  Search anything here...  ">
                     </form>
                 </div><!--header__input-->
 
-                <a class ="header__list" href="">
+                <a class ="header__list" href="#">
                     <img class="header__img" src="./source/img/header/upload.png" alt="upload">
                 </a>
-                <a class ="header__list" href="">
+                <a class ="header__list" href="#">
                     <img class="header__img" src="./source/img/header/envelope.png" alt="envelope">
                 </a>
-                <a class ="header__list" href="">
+                <a class ="header__list" href="#">
                     <img class="header__img" src="./source/img/header/planet.png" alt="planet">
                 </a>
                 <img class="header__img-kendall" src="./source/img/header/jenner.png" alt="jenner">
@@ -88,6 +86,10 @@
                     <a class ="header__kendall-button" href=""><img class="header__menu" src="./source/img/header/ellipse.png" alt="dot_menu"></a>
                 </div><!--header__list__container-->
             </header><!--header-->
+
+            <div class="header-burger">
+                <span class="menu-btn-burger"></span>
+            </div> <!--menu-button-->
 
             <div class="statistics">
                 <div class="statistics__list">
@@ -169,10 +171,10 @@
                             <div class="upper__container-left__header">
                                 <h4 class="upper__container-left__header-title">monthly revenue progress</h4>
                                 <div class="upper__container-left__header-buttons">
-                                    <a class ="upper__container-left__block" href="">Month</a>
-                                    <a class ="upper__container-left__block" href="">Day</a>
-                                    <a class ="upper__container-left__block" href="">Year</a>
-                                    <a class ="upper__container-left__block" href="">
+                                    <a class ="upper__container-left__block" href="#">Month</a>
+                                    <a class ="upper__container-left__block" href="#">Day</a>
+                                    <a class ="upper__container-left__block" href="#">Year</a>
+                                    <a class ="upper__container-left__block" href="#">
                                         <img class="sidebar__header-img" src="./source/img/header/ellipse.png" alt="like"></a>    
                                 </div><!--upper__container-left__header-buttons-->
                             </div><!--upper__container-left__header-->
@@ -199,22 +201,20 @@
                             </div><!--lower__container-left__left-part-->
                             <div class="lower__container-left__right-part">
                                 <div class="__right-part__inner-block">
-                                    <p class="__inner-block-text"><strong>Sophie Turner</strong>&#32is simply dummy text of the printing and typesetting industry. Lorem ipsum has been the industry's standard dummy text ever since the 1500's.</p>
+                                    <p class="__inner-block-text"><strong>Sophie Turner</strong>is simply dummy text of the printing and typesetting industry. Lorem ipsum has been the industry's standard dummy text ever since the 1500's.</p>
                                 </div>
                                 <div class="vertical__line"></div>
                                 <div class="__right-part__inner-blocks">
-                                    <p class="__inner-block-text"><strong>Sophie Turner</strong>&#32is simply dummy text of the printing and typesetting industry. Lorem ipsum has been the industry's standard dummy text ever since the 1500's.</p>
+                                    <p class="__inner-block-text"><strong>Sophie Turner</strong>is simply dummy text of the printing and typesetting industry. Lorem ipsum has been the industry's standard dummy text ever since the 1500's.</p>
                                 </div>
                                 <div class="__right-part__inner-blocks">
-                                    <p class="__inner-block-text"><strong>Sophie Turner</strong>&#32is simply dummy text of the printing and typesetting industry. Lorem ipsum has been the industry's standard dummy text ever since the 1500's.</p>
+                                    <p class="__inner-block-text"><strong>Sophie Turner</strong>is simply dummy text of the printing and typesetting industry. Lorem ipsum has been the industry's standard dummy text ever since the 1500's.</p>
                                 </div>
                                 <div class="__right-part__inner-block">
-                                    <p class="__inner-block-text"><strong>Peter Quill</strong>&#32is simply dummy text of the printing and typesetting industry. Lorem ipsum has been the industry's standard dummy text ever since the 1500's.</p>
+                                    <p class="__inner-block-text"><strong>Peter Quill</strong>is simply dummy text of the printing and typesetting industry. Lorem ipsum has been the industry's standard dummy text ever since the 1500's.</p>
                                 </div>
                             </div><!--lower__container-left__right-part-->
                         </div><!--lower__container-->
-                        
-                        
                         <div class="lower__container-right">
                             
                             <div class="horizontal__upper-container">
@@ -229,9 +229,8 @@
                                     </div>
                                     <p class="horizontal__upper-container__title"><strong>Arrange</strong></p>
                                     <p class="horizontal__upper-container__text">Simply dummy text of the printing......</p>
-                                    <img class="horizontal__upper-container__clock" src="./source/img/main/clock.png">
+                                    <img class="horizontal__upper-container__clock" src="./source/img/main/clock.png" alt="clock">
                                 </div><!--horizontal__upper-container__inner-->
-                                
                                 
                                 <div class="horizontal__upper-container__inner">
                                     <div class="horizontal__upper-container__blocks">
@@ -242,7 +241,7 @@
                                     </div>
                                     <p class="horizontal__upper-container__title"><strong>Shipment</strong></p>
                                     <p class="horizontal__upper-container__text">Simply dummy text of the printing......</p>
-                                    <img class="horizontal__upper-container__clock" src="./source/img/main/clock.png">
+                                    <img class="horizontal__upper-container__clock" src="./source/img/main/clock.png" alt="clock">
                                 </div><!--horizontal__upper-container__inner-->
 
                                 <div class="horizontal__upper-container__inner">   
@@ -254,7 +253,7 @@
                                     </div>
                                     <p class="horizontal__upper-container__title"><strong>Make List</strong></p>
                                     <p class="horizontal__upper-container__text">Simply dummy text of the printing......</p>
-                                    <img class="horizontal__upper-container__clock" src="./source/img/main/clock.png">
+                                    <img class="horizontal__upper-container__clock" src="./source/img/main/clock.png" alt="clock">
                                 </div><!--horizontal__upper-container__inner-->
                                    
                                 <div class="horizontal__upper-container__inner">
@@ -266,7 +265,7 @@
                                     </div>
                                     <p class="horizontal__upper-container__title"><strong>Review</strong></p>
                                     <p class="horizontal__upper-container__text">Simply dummy text of the printing......</p>
-                                    <img class="horizontal__upper-container__clock" src="./source/img/main/clock.png">
+                                    <img class="horizontal__upper-container__clock" src="./source/img/main/clock.png" alt="clock">
                                 </div><!--horizontal__upper-container__inner-->
                             </div><!--horizontal__upper-container-->
                             
@@ -301,9 +300,9 @@
             
                 <div class="sidebar">
                     <div class="sidebar__header">
-                        <div class="sidebar__header-items"><a class ="sidebar__header-buttons" href=""><img class="sidebar__header-img" src="./source/img/aside/users.png" alt="users"></a></div>
-                        <div class="sidebar__header-items"><a class ="sidebar__header-buttons" href=""><img class="sidebar__header-img" src="./source/img/aside/header_chat.png" alt="chat"></a></div>
-                        <div class="sidebar__header-items"><a class ="sidebar__header-buttons" href=""><img class="sidebar__header-img" src="./source/img/aside/like.png" alt="like"></a></div>
+                        <div class="sidebar__header-items"><a class ="sidebar__header-buttons" href="#"><img class="sidebar__header-img" src="./source/img/aside/users.png" alt="users"></a></div>
+                        <div class="sidebar__header-items"><a class ="sidebar__header-buttons" href="#"><img class="sidebar__header-img" src="./source/img/aside/header_chat.png" alt="chat"></a></div>
+                        <div class="sidebar__header-items"><a class ="sidebar__header-buttons" href="#"><img class="sidebar__header-img" src="./source/img/aside/like.png" alt="like"></a></div>
                     </div><!--sidebar__header-->
 
                     <ul class="sidebar__body">
@@ -313,7 +312,7 @@
                                 <h4 class="row__title">jennifer lawrence</h4>
                                 <p class="row__text">chief authority</p>
                             </div>
-                            <a class ="sidebar__row__chat" href=""><img class="row__chat" src="./source/img/aside/chat.png" alt="chat"></a>
+                            <a class ="sidebar__row__chat" href="#"><img class="row__chat" src="./source/img/aside/chat.png" alt="chat"></a>
                         </li><!--sidebar__body-row-->
 
                         <li class="sidebar__body-row">
@@ -341,7 +340,7 @@
                                 <h4 class="row__title">leonardo dicaprio</h4>
                                 <p class="row__text">chief authority</p>
                             </div>
-                            <a class ="sidebar__row__chat" href=""><img class="row__chat" src="./source/img/aside/chat.png" alt="chat"></a>
+                            <a class ="sidebar__row__chat" href="#"><img class="row__chat" src="./source/img/aside/chat.png" alt="chat"></a>
                         </li><!--sidebar__body-row-->
 
                         <li class="sidebar__body-row">
@@ -350,7 +349,7 @@
                                 <h4 class="row__title">jesse eisenberg</h4>
                                 <p class="row__text">chief authority</p>
                             </div>
-                            <a class ="sidebar__row__chat" href=""><img class="row__chat" src="./source/img/aside/chat.png" alt="chat"></a>
+                            <a class ="sidebar__row__chat" href="#"><img class="row__chat" src="./source/img/aside/chat.png" alt="chat"></a>
                         </li><!--sidebar__body-row-->
 
                         <li class="sidebar__body-row">
@@ -359,7 +358,7 @@
                                 <h4 class="row__title">kristen stewart</h4>
                                 <p class="row__text">chief authority</p>
                             </div>
-                            <a class ="sidebar__row__chat" href=""><img class="row__chat" src="./source/img/aside/chat.png" alt="chat"></a>
+                            <a class ="sidebar__row__chat" href="#"><img class="row__chat" src="./source/img/aside/chat.png" alt="chat"></a>
                         </li><!--sidebar__body-row-->
 
                         <li class="sidebar__body-row">
@@ -368,30 +367,30 @@
                                 <h4 class="row__title">ben affleck</h4>
                                 <p class="row__text">chief authority</p>
                             </div>
-                            <a class ="sidebar__row__chat" href=""><img class="row__chat" src="./source/img/aside/chat.png" alt="chat"></a>
+                            <a class ="sidebar__row__chat" href="#"><img class="row__chat" src="./source/img/aside/chat.png" alt="chat"></a>
                         </li><!--sidebar__body-row-->
                     </ul><!--sidebar__body-->
 
                     <div class="sidebar__input-form">
                         <form>
-                            <label form="sidebar-form"></label>
+                            <label for="sidebar-form"></label>
                             <input type="text" id="sidebar-form" name="sidebar-form" value="Search people, chats and reviews">
                         </form>
-                        <a class ="sidebar__form-icon" href=""><img class="sidebar__icons" src="./source/img/aside/zoom.png" alt="zoom"></a>
-                        <a class ="sidebar__form-icon" href=""><img class="sidebar__icons" src="./source/img/aside/edit.png" alt="edit"></a>
+                        <a class ="sidebar__form-icon" href="#"><img class="sidebar__icons" src="./source/img/aside/zoom.png" alt="zoom"></a>
+                        <a class ="sidebar__form-icon" href="#"><img class="sidebar__icons" src="./source/img/aside/edit.png" alt="edit"></a>
                     </div><!--sidebar__input-form-->
                     
                     <footer class="footer__social-icons">
                         <h4 class="footer__title"><strong>Featured Companies</strong></h4>
                         <div class="footer__upper-icons">
-                            <a class ="footer__upper-container" id="rdio" href=""><img class="sidebar__icons" src="./source/img/aside/rdio.png" alt="rdio"></a>
-                            <a class ="footer__upper-container" id="css3" href=""><img class="sidebar__icons" src="./source/img/aside/css3.png" alt="css3"></a>
-                            <a class ="footer__upper-container" id="deviant" href=""><img class="sidebar__icons" src="./source/img/aside/deviant.png" alt="deviant"></a>
+                            <a class ="footer__upper-container" id="rdio" href="#"><img class="sidebar__icons" src="./source/img/aside/rdio.png" alt="rdio"></a>
+                            <a class ="footer__upper-container" id="css3" href="#"><img class="sidebar__icons" src="./source/img/aside/css3.png" alt="css3"></a>
+                            <a class ="footer__upper-container" id="deviant" href="#"><img class="sidebar__icons" src="./source/img/aside/deviant.png" alt="deviant"></a>
                         </div><!--footer__lower-icons-->
                             <div class="footer__lower-icons">
-                            <a class ="footer__lower-container" id="xing" href=""><img class="sidebar__icons" src="./source/img/aside/xing.png" alt="xing"></a>
-                            <a class ="footer__lower-container" id="vimeo" href=""><img class="sidebar__icons" src="./source/img/aside/vimeo.png" alt="vimeo"></a>
-                            <a class ="footer__lower-container" id="vk" href=""><img class="sidebar__icons" src="./source/img/aside/vk.png" alt="vk"></a>
+                            <a class ="footer__lower-container" id="xing" href="#"><img class="sidebar__icons" src="./source/img/aside/xing.png" alt="xing"></a>
+                            <a class ="footer__lower-container" id="vimeo" href="#"><img class="sidebar__icons" src="./source/img/aside/vimeo.png" alt="vimeo"></a>
+                            <a class ="footer__lower-container" id="vk" href="#"><img class="sidebar__icons" src="./source/img/aside/vk.png" alt="vk"></a>
                         </div><!--footer__lower-icons-->
                     </footer><!--footer__social-icons-->
                 </div><!--sidebar-->   
